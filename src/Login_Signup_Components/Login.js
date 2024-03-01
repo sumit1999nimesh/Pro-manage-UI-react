@@ -12,13 +12,26 @@ function Login() {
     const [formData, setFormData] = useState({ email: '', password: '' });
     const navigate  = useNavigate();
 
+
+    const handleToRegister=()=>{
+      navigate('/');
+    }
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData(prevState => ({ ...prevState, [name]: value }));
       };
       const handleLogin = async (e) => {
         e.preventDefault();
-    
+        let str= formData.email;
+        str=str.toLowerCase();
+        formData.email=str
+         setFormData(
+           {
+             email:formData.email,
+             password: formData.password
+           }
+         )
         // Validate email and password
         if (!formData.email || !formData.password) {
           return console.warn('Email and password are required');
@@ -77,7 +90,7 @@ function Login() {
       </form>   
       <p className="have-an-acct-label">Have no account yet?</p>
           <div className="login_btn">
-              <button  className="login_btn_p1">Register</button>
+              <button  className="login_btn_p1" onClick={handleToRegister}>Register</button>
          
           </div>
       </div>   
