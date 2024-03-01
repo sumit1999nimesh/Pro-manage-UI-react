@@ -1,0 +1,150 @@
+#name{
+  
+}
+.have-an-acct-label{
+    color: #828282;
+}
+.Sign_login_component_MNUN1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%
+}
+.form{
+    text-align: center;
+  width: 669.8px;
+}
+.signup_container{
+  display: flex;
+  
+}
+
+.login_btn_p1{
+    color: #17A2B8;
+    background-color: #FFFFFF;
+    font-family: Open Sans;
+    width: 350px;
+    height: 40px;
+    border-color: #17A2B8;
+    border-radius: 30px;
+    font-size: 19.29px;
+    font-weight: 400;
+
+    margin-top: 10px;
+}
+.signup_btn_p1{
+    background-color: #17A2B8;
+    font-family: Open Sans;
+    width: 350px;
+    height: 40px;
+    border: 2px;
+    border-radius: 30px;
+    font-size:19.29px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.form_input_p1{
+  background-image: url('../icons/password.png');
+ width: 350px;
+  box-sizing: border-box;
+  margin: 15px;
+  height: 40px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 6px 6px; 
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+.form_input_email_U4{
+  background-image: url('../icons/email.png');
+ width: 350px;
+  box-sizing: border-box;
+  margin: 15px;
+  height: 40px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 6px 6px; 
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+.form_input_name_U4{
+  background-image: url('../icons/Profile.png');
+  width: 350px;
+  box-sizing: border-box;
+  margin: 15px;
+  height: 40px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 6px 6px; 
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+.login_signup_container{
+    background-color: #17A2B8;
+    display: block;
+    width: 1000px;
+    height: 100vh;
+    text-align: center;
+}
+.logo_signup_login{
+    width:505.8px;
+    height:505.8px ;
+    top: 197.08px;
+    left: 252.21px;
+    border-radius: 250.83px;
+   
+    gap: 13.78px;
+}
+.login_signup_container_h1{
+    color: white;
+    font-family: Open Sans;
+    font-size: 33.08px;
+    font-weight: 600;
+
+    line-height: 1px;
+
+}
+.login_signup_container_h2{
+        color: white;
+    font-family: Open Sans;
+    font-size:19.29px;
+    font-weight: 400;
+    line-height: 38.59px;
+    
+}
+
+.register_heading_singup{
+font: Open Sans;
+margin-top: 100px;
+font-weight: 600;
+font-size: 33.08px;
+color: #343434;
+line-height: 45.04px;
+}
+
+
+
+@media only screen and (max-width: 1400){
+  .login_signup_container{
+    width: 100%;
+height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 1200){
+  .login_signup_container{
+    width: 100px;
+height: 100vh;
+  }
+}

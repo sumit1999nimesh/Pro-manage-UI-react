@@ -1,0 +1,86 @@
+
+.collapse_btn_task_IKNN2{
+    height: 18px;
+    width: 18px;
+    font-size: 48px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.task_container_child_jnH3{
+    background-color: #EEF2F5;
+    width: 360px;
+    height:75vh;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+    overflow:auto;
+}
+
+.Task_container_Kwee2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    overflow:scroll;
+}
+.welcome_heading_hYHS2{
+    font: Poppins;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 25px;
+    display: inline-block;
+      
+    width: 80%;
+}
+.todays_date_text{
+    float: right;
+    font: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color:#707070;
+    margin-right: 25px;
+    margin-top: 28px;
+    width:10%;
+
+}
+.board_heading_jJG1{
+    font: Poppins;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 43.5px;
+    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 25px;
+    display: inline-block;
+          
+    width: 70%;
+}
+.t2_dashboard_container_Kw2{
+    margin-left: 193px;
+    height: 100vh;
+}
+#dropdown{
+    float: right;
+    width:10%;
+    height: 24px;
+    border: 1px;
+     margin-right: 30px;
+    margin-top: 25px;
+}
+select option{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.top_container_dashboard_sec{
+    height: 100%;
+}

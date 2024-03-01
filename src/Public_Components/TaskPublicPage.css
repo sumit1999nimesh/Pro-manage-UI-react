@@ -1,0 +1,79 @@
+.Ptaskcard_t_container_jjj2{
+    max-width: 654px;
+    max-height: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Ptaskcard_sub_container_jjj2{
+    max-width: 654px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    border-style: none;
+        
+    overflow:auto;
+    margin-bottom: 20px;
+    @media (max-width: 768px) {
+        width: 90%; /* Set width to 80% for screens up to 768px wide (typical mobile screens) */
+      }
+}
+
+.Ptaskcard_container_jjj2_P_M_1{
+  padding: 30px;
+}
+.checklist_conatiner_scroll_imp_13{
+    max-width: 400px;
+}
+.duedatelabel_KNB8{
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.duedate_KNB8{
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+margin-top: 10px;
+display: inline-block;
+width: 80px;
+height: 24px;
+text-align: center;
+padding: 5px, 10px, 5px, 10px;
+border-radius: 8px;
+gap: 10px;
+background-color: #CF3636;
+}
+
+.checklist_field_name_txt_HYGG2{
+
+  
+}
+.checklist_field_container_public{
+
+    word-wrap: break-word;
+
+    width: 100%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    border-style: none;
+     border-radius: 12px;
+     padding: 12px;
+     gap: 10px;
+     margin:10px 1px 5px 1px;
+     border-radius: 12px;
+  
+}
+
+.checklist_field_container_public input[type="checkbox"] {
+    margin-right: 0px; /* Adds space between the checkbox and label */
+    
+
+  }

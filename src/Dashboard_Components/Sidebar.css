@@ -1,0 +1,77 @@
+.sidebar_container{
+    width: 193px;
+     height: 100vh;
+     border-style: none;
+     border-right: groove;
+     border-color: #CDECE9;
+     display: flex;
+     border-width: 1px;
+     flex-direction: column;
+
+     position: fixed; 
+     z-index: 1; 
+     top: 0; 
+     left: 0;
+     overflow-x: hidden; 
+     
+ }
+ 
+.logo_sidebar_icons{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+.logo_name_sidebar{
+  
+    display: flex;
+   margin: 20px;
+   margin-bottom: 40px;
+
+}
+.dashboard_heading{
+    margin-left: 20px;
+ 
+   
+}
+.dashboard_sidebar_link_text{
+    margin-left: 20px;
+   font: Poppins;
+   font-weight: 500;
+   size: 16px;
+   line-height: 24px;
+   color: #707070;
+;
+   
+}
+
+.sidebarlink{
+    padding-left: 20px;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    text-decoration: none;
+}
+.dashboard_heading{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.logout_icon_text_oi81{
+    display: flex;
+  margin-top: auto;
+  margin-left: 20px;
+  background-color: white;
+color: #CF3636;
+font: Poppins;
+font-size: 16px;
+line-height: 24px;
+font-weight: 500;
+  border: none;
+}
+.logout_btn_txt_Yth1{
+        margin-left: 15px;
+        margin-bottom: 50px;
+}

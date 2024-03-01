@@ -1,0 +1,59 @@
+.top_container_settings_T1 {
+    display: flex;
+   
+}
+.analytics_card_container_TY1{
+    display: flex;
+  
+}
+.settings_form_top{
+    margin-left: 193px;
+}
+.anaylytic_t_content_qwaq1{
+    display: flex;
+   flex-direction: column;
+ align-items: start;
+ margin-left: 193px;
+ 
+}
+.analytic_heading_HYh1{
+    font: Open Sans;
+    font-weight: 600;
+    line-height: 29.96px;
+    font-size: 22px;
+    margin-left: 50px;
+}
+.analytics_card{
+    background-color: #CDECE9;
+    width: 475px;
+    height: 264px;
+    margin: 50px;
+border-radius: 10px;
+    
+}
+.analytics_count{
+    float: right;
+    margin-right: 35px;
+    font-weight: 600;
+    size: 20px;
+    line-height: 27.24px;
+ }
+li {
+    color: #90C4CC;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 35px;
+     font: Open Sans;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 24.51px;
+    margin-left: 20px;
+}
+
+li span {
+    color: black;
+   
+}
+li::marker {
+    font-size: 1.5rem;
+}

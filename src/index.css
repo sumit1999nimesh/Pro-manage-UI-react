@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif,'Poppins';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar {
+  width:10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaaeb4; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #868b92; 
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input[type="checkbox" i]{
+  width: 18px;
+  height: 18px;
+  left: 5px;
+  border: 2px;
+  background-color: #17A2B8;
+  border-radius: 6px;
+  margin: 10px;
+}
+::placeholder {
+  
+ color: #828282;
+  font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+
+letter-spacing: 0em;
+
+text-align: left;
+text-indent: 10px;
+}
+
+.global_error{
+  color: red;
+  text-align: initial;
+  margin-left: 165px;
+  line-height: 0px;
+}

@@ -1,0 +1,121 @@
+.taskcard{
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+  
+}
+
+.checklist_items_THYG1{
+    word-wrap: break-word;
+    width: auto;
+display: block;
+ height: auto;
+ font: Inter;
+ padding-top: 5px;
+ padding-bottom: 10px;
+ box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+ border-style: none;
+ border-radius: 3px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-size: 14px;
+ 
+ font-weight: 450;
+line-height: 16.94px;
+}
+
+.cl_title_task_nhb3_NSBH{
+    font: Inter;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.title_task_nhb3{
+    word-wrap: break-word;
+    font: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.more_icon_UYT6{
+    float: right;
+    width: 20px;
+   
+   
+}
+
+.priority_TXT_uYN1{
+    width: 80%;
+    height: 12px;
+    font: Poppins;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    float: left;
+}
+
+.duedate_label_extrea{
+    font: Poppins;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 8px;
+    color: #5A5A5A;
+    line-height: 12px;
+    font-weight: 500;
+    padding: 5px 10px 5px 10px;
+    border: none;
+     height: 22px;
+}
+.duedate_label{
+    font: Poppins;
+    background-color: #DBDBDB;
+    border-radius: 8px;
+    font-size: 8px;
+    color: #5A5A5A;
+    line-height: 12px;
+    font-weight: 500;
+    padding: 5px 10px 5px 10px;
+    border: none;
+     height: 22px;
+}
+
+.status_btn_group_UY6{
+    font: Poppins;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    background-color: #DBDBDB;
+    border-radius: 8px;
+    color: #5A5A5A;
+    margin-left: 10px;
+    margin-top: 3px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    float: right;
+}
+.options-menu{
+    position: absolute;
+    top: 50%;
+ right: 20%;
+    width: 151px;
+    height: auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 22px 0px #7E7A7A40;
+   border-radius: 12px;
+
+}
+
+.LI_moreoption_UJH5{
+    padding: 7px;
+    margin: 7px;
+    color: black;
+}
+.LI_moreoption_UJH5:hover {color: #e77942ee;}
+.LI_moreoption_UJH5:visited {color: #f90707ee;}

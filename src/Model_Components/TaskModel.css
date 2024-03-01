@@ -1,0 +1,223 @@
+.checklist_scrollable_conatiner{
+  display: flex;
+  max-height:355px;
+  height: 355px;
+  margin-bottom: 10px;
+  overflow-y:scroll;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .modal_container {
+    position: fixed;
+    z-index: 20;
+    background: #fff;
+    width: 666px;
+  height: 596px;
+    /* Center the modal */
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    transform: translateX(-50%) translateY(-50%);
+  }
+.checklist_conatiner_top_JNH1{
+  height: 100%;
+}
+  .delete_modal_container{
+    position: fixed;
+    z-index: 20;
+    background: #fff;
+    height: 200px;
+    width:335.19px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 12px;
+    text-align: center;
+  }
+  .checklist_field_container_sen4{
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    border-style: none;
+     border-radius: 12px;
+     padding: 12px;
+     gap: 10px;
+     margin:10px 1px 5px 1px;
+     border-radius: 12px;
+  }
+  .checklist_field_name_txt_HYGG2{
+    font: Inter;
+    border: transparent;
+    outline: 0;
+    width: 85%;
+    padding-left: 10px;
+    font-size: 16px;
+    padding-top: 2px;
+    line-height: 19.36px;
+    font-weight: 400;
+    
+  }
+  .modal__header {
+    
+    margin: 10px 20px 10px 20px;
+    justify-content: space-between;
+  }
+  .addnew_CL_HY55{
+    border-style: none;
+    background-color: white;
+    font-size: 16px;
+    color: #767575;
+  }
+  .title_txt_field_YTB3{
+    width: 94%;
+    height: 44px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+   border-style: none;
+  }
+.checklist_field_delete_btn_G2{
+  margin-right: 0%;
+  width: 20px;
+  height: 20px;  
+  border: none;
+  background-color: white;
+}
+.titledelete_label_JH111{
+  font: Inter;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  display: block;
+  width: 100%;
+}
+  .title_label_JHU1{
+      font: Inter;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      display: block;
+      width: 100%;
+ 
+    
+     
+  }
+  .modal__main {
+    padding: 20px;
+  }
+  .complusary_fields_mark{
+    color: red;
+  }
+  .radiobtn_priority{
+    display:none;   
+  }
+  .submit_task_model_UHYN4{
+    float: right;
+    height: 45px;
+    font-size:16px;
+    width: 155.33px;
+  border-radius: 12px;
+ margin-right: 30px;
+
+    background-color: #17A2B8;
+    color: white;
+    border-style: none; 
+  }
+  .dueddatebtn_JHN7{
+    display: inline-block;
+    border-radius: 12px;
+    border-color: #E2E2E2;
+    height: 45px;
+    
+    color: #707070;
+    background-color: #fff;
+    box-shadow: 0px 2px 12px 0px #82698C33;
+      width: 185px;
+  }
+  .cancel_task_model_UHYN4{
+    float: right;
+    height: 45px;
+    font-size:16px;
+    width: 155.33px;
+   border-radius: 12px;
+   margin-right: 15px;
+   border-color: #CF3636;
+   color:#CF3636;
+  }
+  .radiobtn_prio_text{
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+
+ border-radius: 8px;
+  }
+  .dot {
+    margin-bottom: 2px;
+    margin-right: 5px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .close-button {
+    border: none;
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 36px;
+    
+  }
+  .model_cancel_bbtn{
+    height: 45px;
+    font-size:16px;
+   width: 80%;
+   border-radius: 12px;
+   margin-top: 10px;
+   border-color: #CF3636;
+   color:#CF3636;
+   }
+   .model_delete_bbtn{
+    height: 45px;
+    font-size:16px;
+    width: 80%;
+  border-radius: 12px;
+    margin-top: 10px;
+    background-color: #17A2B8;
+    color: white;
+    border-style: none;
+   }
+  .close-button:hover {
+    color: yellow;
+  }
+  
+  .button {
+    background: green;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+  
+  }
+  
+  .button:hover {
+    background: orange;
+  }
+  input[type=radio]:checked + label 
+  {background-color: #c9c5c5};
+
