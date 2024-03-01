@@ -12,6 +12,7 @@ import { useNavigate } from "react-router-dom";
 
 function Signup() {
   const navigate = useNavigate();
+    const [conpasswordTXT,setconpasswordTXT]  = useState('')
   const [errorPassword,seterrorPassword]  = useState(false)
   const [errorConPassword,seterrorConPassword]  = useState(false)
     const [formData, setFormData] = useState({
@@ -22,6 +23,7 @@ function Signup() {
 
 
    const handleConfirmPasswordError=(event)=>{
+ setconpasswordTXT(event.target.value)
       if(event.target.value!==formData.password){
         seterrorConPassword(true);
       }
@@ -48,7 +50,18 @@ function Signup() {
       };
       const handleSubmit = async (e) => {
         e.preventDefault();
-      console.warn(formData)
+       let str= formData.email;
+       str=str.toLowerCase();
+       console.warn("email "+ str)
+       formData.email=str
+        setFormData(
+          {
+            name: formData.name,
+            email:formData.email,
+            password: formData.password
+          }
+        )
+    
         try {
           const response = await fetch('https://pro-manage-61b10a19ae77.herokuapp.com/user/signup', { 
             method: 'POST',
@@ -67,6 +80,15 @@ function Signup() {
           }
         } catch (error) {
           console.error('Error:', error.message);
+        }
+        finally{
+          setFormData(
+            {
+              name: '',
+              email:'',
+              password: ''
+            })
+            setconpasswordTXT('')
         }
       };
     return (
@@ -92,7 +114,7 @@ function Signup() {
                {errorPassword?<div className="global_error">Passwords length should be greater than 4 </div>:""}
               </div>
               <div className="login_signup_input">
-                  <input className="form_input_p1"  placeholder='Confirm Password' type="password" id="confirm_password" onChange={handleConfirmPasswordError} />
+                  <input className="form_input_p1"  placeholder='Confirm Password' value={conpasswordTXT}  type="password" id="confirm_password" onChange={handleConfirmPasswordError} />
                   {errorConPassword?<div className="global_error">Passwords do not match</div>:""}
               </div>
              
