@@ -176,9 +176,13 @@ const closeModalEdit = () => {
         <h3 className="cl_title_task_nhb3_NSBH">Checklist ({checkedcount}/{props.taskobjects.checklist.length})</h3>
         {checkliststate==='true'?<CollapsibleCheckListText title="Section 1" initialCollapsed={false} checklistdata={props.taskobjects.checklist} />:""}
        
-      {dateFromString<currentDate && formattedDate.length>1 ?
-      <label className="duedate_label" style={{backgroundColor:'red', color:'black'}}>{formattedDate}</label > :  formattedDate.length>1 && dateFromString>currentDate?
-        <label className="duedate_label" >{formattedDate}</label > :  <label className="duedate_label" style={{backgroundColor:'white'}}></label >}
+      {dateFromString<currentDate && formattedDate.length>1 && taskState!=='DONE'?
+      <label className="duedate_label" style={{backgroundColor:'red', color:'black'}}>{formattedDate}</label >
+       :  formattedDate.length>1 && dateFromString>currentDate && taskState!=='DONE'?
+        <label className="duedate_label" >{formattedDate}</label > : 
+        formattedDate.length>1 && taskState==='DONE'?
+        <label className="duedate_label" style={{backgroundColor:'lightgreen', color:'black'}}>{formattedDate}</label >:
+         <label className="duedate_label" style={{backgroundColor:'white'}}></label >}
         {taskState!=='BACKLOG'? <button className="status_btn_group_UY6" value="BACKLOG" onClick={handlupdatestate}>BACKLOG</button>:""}
         {taskState!=='PROGRESS'?  <button className="status_btn_group_UY6" value="PROGRESS"  onClick={handlupdatestate}>PROGRESS</button>:""}
         {taskState!=='TO-DO'? <button className="status_btn_group_UY6" value="TO-DO"  onClick={handlupdatestate}>TO-DO</button>:""}
