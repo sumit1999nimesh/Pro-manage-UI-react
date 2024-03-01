@@ -100,7 +100,7 @@ const closeModalEdit = () => {
         
        const handlesharelink=async (e)=>{
         const taskid=props.taskobjects._id;
-        const url = `https://pro-manage-61b10a19ae77.herokuapp.com/task/gettaskpublic/`+taskid;
+        const url = `https://pro-manage-ui-9a741368322d.herokuapp.com/public/`+taskid;
         console.log(url);
         try {
           await navigator.clipboard.writeText(url);
